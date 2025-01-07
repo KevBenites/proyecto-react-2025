@@ -1,5 +1,5 @@
 import * as React from "react";
-import { UserContext } from "./context/UserContext";
+import { UserContext } from "../../context/UserContext";
 
 const Perfil = () => {
   const usuario = React.useContext(UserContext);
